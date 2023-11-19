@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "39765226027",
+    "project_id": "shop-f2bce",
+    "storage_bucket": "shop-f2bce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39765226027:android:8105057a01d1d88401b06e",
+        "android_client_info": {
+          "package_name": "com.example.do_an_thuc_tap_main"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvjqlTPrQpwMptwk0zb1aC7xGoG1jtHvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

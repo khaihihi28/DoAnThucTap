@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtAddEmail"
+            android:hint="Email"
+            android:textColorHint="#56000000"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtAddPass"
+            android:hint="Password"
+            android:textColorHint="#56000000"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:inputType="textPassword"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtUserName"
+            android:hint="Tên user"
+            android:textColorHint="#56000000"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:inputType="text"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtPhone"
+            android:hint="Phone"
+            android:textColorHint="#56000000"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:inputType="text"
+            />
+        <Spinner
+            android:id="@+id/adminSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"/>
+        <Button
+            android:id="@+id/btnSaveAccount"
+            android:text="Lưu"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_alignParentBottom="true"
+            />
+
+    </LinearLayout>
+    
+
+
+</androidx.cardview.widget.CardView>
